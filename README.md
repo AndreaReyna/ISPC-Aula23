@@ -1,6 +1,6 @@
 # ISPC - Aula #23
 
-## Grupo
+## Grupo de Proyecto
 
 * Franco Trivini
 * Andrea Reyna
