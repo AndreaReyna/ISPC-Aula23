@@ -1,6 +1,9 @@
--- Creacion de tablas
+-- Creacion de base de datos y tablas
 -- 1: Realice la consulta correspondiente para crear la tabla Perro, teniendo en cuenta sus claves foráneas y primarias.
 -- 2: Inserte en la tabla correspondiente un nuevo animal (perro) como paciente y el dueño asociado a ese animal.
+
+CREATE DATABASE peluqueria_canina;
+USE peluqueria_canina;
 
 CREATE TABLE dueno (
   dni int NOT NULL,
