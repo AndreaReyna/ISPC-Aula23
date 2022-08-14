@@ -56,3 +56,11 @@ insert into historial value(2,'peluqueria','2022-06-29',3,'Bañado y peinado',36
 insert into historial value(3,'peluqueria','2022-03-05',5,'Corte pelo y uñas',1750.00);
 insert into historial value(4,'Vacunacion','2021-09-1',5,'Se coloca vacuna y pipeta ',1750.00);
 select*from historial;
+-- EJERCICIO--
+-- Obtener todos los perros de sexo “Macho” nacidos entre 2020 y 2022. --
+select * from perro;
+select * 
+from perro
+where sexo='Macho' 
+and fecha_nacimiento 
+between '2020-01-01' and '2022-12-31';
